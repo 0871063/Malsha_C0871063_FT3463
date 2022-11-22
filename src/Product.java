@@ -1,4 +1,5 @@
 public class Product extends Binary {
+
     public Product(int type, int value, ArithmeticExp left, ArithmeticExp right) {
         super(type, value, left, right);
     }
@@ -18,6 +19,6 @@ public class Product extends Binary {
 
     @Override
     public String toString() {
-        return super.toString();
+        return left.toString() + " * " + right.toString();
     }
 }

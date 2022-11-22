@@ -19,6 +19,6 @@ public class Sum  extends Binary  {
 
     @Override
     public String toString() {
-        return super.toString();
+        return left.toString() + " + " +  right.toString();
     }
 }
