@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d2ae78e-6d83-4294-a9ce-9ae2f50cea75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArithmeticExp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Question_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Type.java" afterDir="false" />
+    <list default="true" id="9d2ae78e-6d83-4294-a9ce-9ae2f50cea75" name="Changes" comment="String Value Display">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticExp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,6 +71,21 @@
       <option name="presentableId" value="Default" />
       <updated>1669079087151</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final Code">
+      <created>1669084494457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669084494457</updated>
+    </task>
+    <task id="LOCAL-00002" summary="String Value Display">
+      <created>1669084742934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669084742934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,12 +99,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Code" />
+    <MESSAGE value="String Value Display" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Value Display" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Product.java</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -110,7 +129,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Product.java</url>
-          <line>7</line>
+          <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -130,7 +149,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Product.java</url>
-          <line>2</line>
+          <line>3</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

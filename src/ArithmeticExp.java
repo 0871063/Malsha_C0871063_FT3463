@@ -1,20 +1,30 @@
 public abstract class ArithmeticExp {
-    public int type;
+    public Type type;
     public int value;
     public ArithmeticExp left;
     public ArithmeticExp right;
     public int evaluate(){
-        return 0;
+        switch (this.type) {
+            case NUMBER:
+                return value;
+            case SUM:
+                return (this.left.getValue()) + this.right.getValue();
+            case PROD:
+                return this.left.getValue() * this.right.getValue();
+            default:
+                return 0;    //error, should never happen
+
+        }
     }
 
-    public ArithmeticExp(int type, int value, ArithmeticExp left, ArithmeticExp right) {
+    public ArithmeticExp(Type type, int value, ArithmeticExp left, ArithmeticExp right) {
         this.type = type;
         this.value = value;
         this.left = left;
         this.right = right;
     }
 
-    public ArithmeticExp(int type, int value) {
+    public ArithmeticExp(Type type, int value) {
         this.type = type;
         this.value = value;
     }
@@ -22,11 +32,11 @@ public abstract class ArithmeticExp {
     public ArithmeticExp(int value) {
         this.value = value;
     }
-    public int getType() {
+    public Type getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(Type type) {
         this.type = type;
     }
 
